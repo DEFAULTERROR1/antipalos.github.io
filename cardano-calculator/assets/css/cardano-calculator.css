@@ -7,6 +7,10 @@ body {
     font-size: 12px;
 }
 
+.container {
+    word-wrap: break-word;
+}
+
 @media (min-width: 768px) {
 
     .codeblock {
@@ -59,6 +63,14 @@ code {
 
 .err-inp {
     background-color: red;
+}
+
+@media (max-width: 767.99px) {
+
+    .calc-table-param-title-label {
+        font-size: 12px;
+    }
+
 }
 
 /****************************
